@@ -1,0 +1,1 @@
+function onWindowResize(){for(var e=0;e<descs.length;e++){var n=document.getElementById(descs[e].dataset.target).offsetWidth;descs[e].style.width=n-64+"px"}}var descs=document.getElementsByClassName("content-description");window.addEventListener("resize",onWindowResize),window.addEventListener("load",onWindowResize),onWindowResize();
