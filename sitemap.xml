@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://jblaha.art/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/sketchbook/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/woa/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/liberty_city/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/skoda/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/characters/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/hogwarts/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/airportprg/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/chloe/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/liz/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/piano/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/projects/karosa/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/sketchbook/latest/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/sketchbook/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/sketchbook/0.4/</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/sketchbook/0.3/</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/sketchbook/0.2/</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://jblaha.art/sketchbook/0.1/</loc>
+  <priority>0.41</priority>
+</url>
+</urlset>
