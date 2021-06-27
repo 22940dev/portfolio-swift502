@@ -4,15 +4,15 @@
 	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 <meta charset="utf-8">
 
-<title>Grand piano</title>
-<meta name="description" content="An animation showing a relatively accurate recreation of grand piano's hammer action mechanism.">
+<title>Paint wars</title>
+<meta name="description" content="A simple 2D game written in C#.">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 
-<meta property="og:title" content="Grand piano">
-<meta property="og:url" content="https://jblaha.art/projects/piano/">
-<meta property="og:description" content="An animation showing a relatively accurate recreation of grand piano's hammer action mechanism.">
+<meta property="og:title" content="Paint wars">
+<meta property="og:url" content="https://jblaha.art/projects/paint_wars/">
+<meta property="og:description" content="A simple 2D game written in C#.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://jblaha.art/assets/projects/piano/thumb.jpg"/>
+<meta property="og:image" content="https://jblaha.art/assets/projects/paint_wars/thumb.jpg"/>
 
 <link href="/assets/favicon.ico" rel="icon" type="image/ico" />
 <link href="/stylesheets/main.css" rel="stylesheet" />
@@ -28,7 +28,7 @@
 </script>
 
 </head>
-<body class="projects projects_piano projects_piano_index">
+<body class="projects projects_paint_wars projects_paint_wars_index">
 	<div id="navbar" class="navbar">
 	<div class="navigation">
 		<a href="/" class="navigation-item ">Home</a>
@@ -41,18 +41,24 @@
 	<div class="project-detail">
 
 		<!-- Title -->
-		<h1 class="project-title">Grand piano</h1>
+		<h1 class="project-title">Paint wars</h1>
 
 		<!-- Tags -->
 		<div class="tag-wrapper">
 			<div class="tag-row">
 				<div class="tag">2015</div>
-				<div class="tag">Blender</div>
-				<div class="tag">GIMP</div>
+				<div class="tag">C#</div>
+				<div class="tag">Windows Forms</div>
 			</div>
 		</div>
 		
 		<!-- Links -->
+		<div class="tag-wrapper">
+			<a class="tile link" href="https://github.com/swift502/PaintWars" target="_blank">
+				<img class="link-tile-icon" src="/assets/svg/external-link-alt.svg">
+				<div class="link-tile-text">GitHub page</div>
+			</a>
+		</div>
 
 		<!-- Content blocks -->
 			<div class="content-block">
@@ -60,18 +66,34 @@
 		id="video-0"
 		class="aspect-container border-radius-top"
 		style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAACoBAMAAAA/XfyKAAAAGFBMVEXw8PD////z8/P6+vr8/Pz19fX39/f7+/s8JifHAAAE/ElEQVRo3u2ZOZfaMBCAwSyk3bGF3QpzpMWGbNqYZZMWyNVCrjrezUv+fkaSYZCEbOwkVTzvoWcdnzSj0U3n30k8/fZ5sVjcfd3FDejp4kcGStibu9o1vANdHus1vgRTXtdQYZyDLcGnq/EMLglLr8N74JL9Nfgsc/LRrhr3cnBLwCvxBMrkvqqCCZTLqpH2JFG5Al+gSh6auY5kXsInV/CBGx+UgtWj6HAVH/BS65v3wPZKPnT4PruSZ5cNeA7Xyqqh86gHnc5r3oOTGrx/gc9r8MzG+1BH9g71m3vgUIsPqxaOOssIjf3mHhzV5H2H+U07AOoKL/c+W/9agy3r9bqYpZvS7nvCM0f8ITHnzdc4jmfLCx04uTjBpoZOG6Vrbo+grb1A2Gql58YO3XOfpdYxRm9xbDrA0/gHY00jm6g4Re3un1vjyjR4QjZaa4+dYzvMM6bwM9fQJMsCfbjqWnYvqu/FnDzzSKmxXKtvDStJfeq7iJ9W9f2ZQlyY5Tv44Fzzh1PX8jOPhtzLnPyQnIyy8ch75KkUKx86ht9KG1J+J1O8NtBDJMJy3ssLLiGe1gk+gsDBP2ojjxVESFpdx/eP3lD8UB8OmxFEtfhQ5/cjYBX6H3ndfmqfVfRfVnDZxf7bOvmh7j8PTP8przj5UCu5P9lxPh9XXubkI04GYEM9Y/omssgAnDzs6RoTfepMjFk5y8X61nPzNDGm72Nsz9xw4vc7BEr4yNpY7A0nc/BkgLUxrIztxs2vjOXLPrQdSnm20VZ6e1nugZOnpuwjLSelynl4oIJ2td4Bqni4E0XjpXl721FqOQ/sfrHO7NT1k0y1+RrS8i3f8i3f8i3f8i3f8n+Pj+4+6+8w316CnrAs41mqP3m85h3vi3Yw5Rh38yv90Mq48TIXcYobPF19esZB/jnoCWMn/2g8BXIjzjYynjh4xilm3+ToajjSboSU4huvTt/pDqRdbDybNx4+jBtTAjqxNV8Ab+jSQApTgTF1Dynon/ED0o4UTs1XLE63qoKnBF2fhIqTQis9/l37u1D6RlM4NV53A661J3uLEhaiOMmHxQstf/byaaddS7F8LfF4p5VWWmnlP5MewAZDbb01tp6gjO/KpT7R3vvNra+Mv5F8Dr6bZ6UGjGT7Fk+bacpL+a7gyX67+nmnmkf59/zsB/zk6umXvVD73JKlgu9DEXhLtj9meAD7c35wPOPcnLbrHD8OiPYAfBlsARgvMr6BQIlP1CGn+GCn/5WQHyAqghAAoSKD6Tyqk8bSTxmk00xUtIUgfif9PwZfBBCIEirjrdSR+Buhew8C0T7H5FdYkdRG+k9QPdQOg6HMUAODeEV4Qu9+Kmq7VZFOl3iZCSFlnPNbrFPULJ9euQA8CAwem8ZE8bP5A84zqbs87mQIYFMG70ueMmw+B45fKFW8bv/bzUl/YR3vTCQfqGI2H+i8B7cqiiz62Ret+kU3JRZPGcT7SMgioSom3QywwSyLpww1f+M4VsPr0zSHV/jBdh9BVRLGBzlMxjBUgdCdqwzJd+lfj1x+cHU+fwPwSk2EBGAupsYtBpiWAQxVxkHwI+J7x2mDNbMxAvLgHHSRF1k+BpiGQVhkCP6m4Odn09ZL2L4PYjgOsogjhjGMimAutPRFRsC7Emouo+b84L4YcA1lC3PRzbwpf4AV+i/4A9OVr5pKny5szWSWw73ovd+4ROq7s38crQAAAABJRU5ErkJggg==);"
-		data-width="16"
-		data-height="9"
+		data-width="800"
+		data-height="560"
 		data-first_padding="true"
 		data-desc_padding="true"
-		data-links_padding="false">
-		<iframe
-			frameborder="0"
-			src="https://www.youtube.com/embed/gNNkhop45G8?rel=0"
-			allowfullscreen
-		></iframe>
+		data-links_padding="true">
+		<video autoplay mute loop>
+			<source src="/assets/projects/paint_wars/paint_wars.webm" type="video/webm">
+		</video>
+		
+<div class="media-controls has-description">
+	<div class="link-row">
+		<div class="tile-wrapper">
+			<a download="paint_wars.webm" href="/assets/projects/paint_wars/paint_wars.webm" target="_blank">
+				<div class="tile">
+					<div class="tile-icon"><img src="/assets/svg/download.svg"></div>
+				</div>
+			</a>
+		</div><div class="tile-wrapper">
+			<a href="/assets/projects/paint_wars/paint_wars.webm" target="_blank">
+				<div class="tile">
+					<div class="tile-icon"><img src="/assets/svg/fullscreen.svg"></div>
+				</div>
+			</a>
+		</div>
 	</div>
-		<p class="content-description textarea" data-target="video-0">An animation showing a relatively accurate recreation of grand piano's hammer action mechanism.</p>
+</div>
+	</div>
+		<p class="content-description textarea" data-target="video-0">Simple 2D game written in C# and Windows Forms. One of my first programming projects made for a school assignment in October 2015. While simple in nature, the project features custom entity collision detection, particle physics, enemy AI and a chunk based, randomized, repeating world. An entirely separate Windows Forms application was used as a world editor to design the world chunks.<br><br>Source code and a playable build are available at the <a href="https://github.com/swift502/PaintWars">GitHub repository</a>.</p>
 </div>
 
 	</div>
