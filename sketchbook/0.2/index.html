@@ -1,44 +1,10 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<title>Sketchbook 0.2</title>
-	<meta name='description' content='Sketchbook demo archive'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-
-    <link rel="icon" href="../favicon.ico">
-
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-B2QZEKQT66"></script>
-<script>
+<!DOCTYPE html> <html> <head> <title>Sketchbook 0.2</title> <meta name=description content='Sketchbook demo archive'> <link href="https://fonts.googleapis.com/css?family=Roboto" rel=stylesheet> <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel=stylesheet> <link rel=icon href="../favicon.ico"> <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2QZEKQT66"></script> <script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
 	gtag('config', 'G-B2QZEKQT66');
-</script>
-</head>
-
-<body>
-
-    <div id="loader">
-        Loading...
-    </div>
-
-    <div id="controls-menu" class="controls-card" style="display: none">
-        <div class="controls-ctrl"><span class="key">W</span><span class="key">A</span><span class="key">S</span><span class="key">D</span><span class="ctrl-desc"></span>movement</span></div>
-        <div class="controls-ctrl"><span class="key">Shift</span><span class="ctrl-desc">sprint</span></div>
-        <div class="controls-ctrl"><span class="key">Space</span><span class="ctrl-desc"></span>jump</span></div>
-        <div class="controls-ctrl"><span class="key">F</span><span class="ctrl-desc"></span>spawn a ball</span></div>
-        <div class="controls-ctrl"><span class="key">T</span><span class="ctrl-desc"></span>toggle slow motion</span></div>
-        <div class="controls-ctrl"><span class="key">V</span><span class="ctrl-desc"></span>change view distance</span></div>
-        <div class="controls-ctrl"><span class="key">Shift</span>&nbsp;+&nbsp;<span class="key">C</span><span class="ctrl-desc"></span>free camera</span></div>
-    </div>
-    
-    <script src="build/three.min.js"></script>
-    <script src="build/cannon.min.js"></script>
-    <script src="build/sketchbook.min.js"></script>
-    <script>
+</script> </head> <body> <div id=loader> Loading... </div> <div id=controls-menu class=controls-card style="display: none"> <div class=controls-ctrl><span class=key>W</span><span class=key>A</span><span class=key>S</span><span class=key>D</span><span class=ctrl-desc></span>movement</span></div> <div class=controls-ctrl><span class=key>Shift</span><span class=ctrl-desc>sprint</span></div> <div class=controls-ctrl><span class=key>Space</span><span class=ctrl-desc></span>jump</span></div> <div class=controls-ctrl><span class=key>F</span><span class=ctrl-desc></span>spawn a ball</span></div> <div class=controls-ctrl><span class=key>T</span><span class=ctrl-desc></span>toggle slow motion</span></div> <div class=controls-ctrl><span class=key>V</span><span class=ctrl-desc></span>change view distance</span></div> <div class=controls-ctrl><span class=key>Shift</span>&nbsp;+&nbsp;<span class=key>C</span><span class=ctrl-desc></span>free camera</span></div> </div> <script src="build/three.min.js"></script> <script src="build/cannon.min.js"></script> <script src="build/sketchbook.min.js"></script> <script>
         const SB = Sketchbook;
 
         //
@@ -261,6 +227,4 @@
                 world.add(new SB.Object(new THREE.Object3D().add(object2), phys2));
             });
         }
-    </script>
-</body>
-</html>
+    </script> </body> </html>
