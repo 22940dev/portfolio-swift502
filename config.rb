@@ -2,7 +2,7 @@ require "base64"
 
 # Project structure
 set :source, 'src'
-set :domain, 'jblaha.art'
+set :domain, 'https://portfolio-swift502-nu.vercel.app'
 activate :directory_indexes
 
 # Set project page proxies
